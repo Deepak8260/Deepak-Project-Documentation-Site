@@ -1,0 +1,27 @@
+site_name: Deepak Kumar Mohanty Projects
+theme:
+  name: material
+  font:
+    text: 'Open Sans'
+    code: 'Fira Code'
+
+extra_css:
+  - css/extra.css
+
+nav:
+  - Overview: index.md
+  - Machine Learning Projects:
+    - Overview: machine-learning-projects/index.md
+    - Project 1: machine-learning-projects/project1.md
+    - Project 2: machine-learning-projects/project2.md
+    - Project 3: machine-learning-projects/project3.md
+  - Deep Learning Projects:
+    - Overview: deep-learning-projects/index.md
+    - Project 1: deep-learning-projects/project1.md
+    - Project 2: deep-learning-projects/project2.md
+    - Project 3: deep-learning-projects/project3.md
+  - NLP Projects:
+    - Overview: nlp-projects/index.md
+    - Project 1: nlp-projects/project1.md
+    - Project 2: nlp-projects/project2.md
+    - Project 3: nlp-projects/project3.md
