@@ -42,11 +42,19 @@
   box-shadow: 0 2px 6px rgba(0,0,0,0.15);
 }
 
-/* Change site name color */
+/* Change site name color and alignment */
 .md-header .md-logo, 
 .md-header .md-header__title {
   color: #fff !important;
   font-weight: 700;
+  line-height: 70px; /* Match header height for vertical centering */
+  margin: 0;
+  padding: 0 1rem;
+}
+
+.md-header__title .md-header__topic {
+  margin: 0;
+  line-height: inherit;
 }
 
 /* Style the top navigation tabs */
@@ -72,6 +80,43 @@
 
 /* Active link highlight in sidebar */
 .md-nav__link--active {
+  color: #4a148c !important;
+  font-weight: 600;
+}
+
+/* Table of contents styling */
+.md-sidebar--secondary {
+  background-color: #fafafa;
+  border-left: 1px solid #eee;
+  padding: 1.5rem;
+}
+
+.md-sidebar--secondary .md-nav__title {
+  color: #4a148c;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.md-sidebar--secondary .md-nav__list {
+  padding-left: 0.5rem;
+}
+
+.md-sidebar--secondary .md-nav__item {
+  padding: 0.2rem 0;
+}
+
+.md-sidebar--secondary .md-nav__link {
+  color: #666;
+  font-size: 0.9rem;
+  transition: color 0.2s;
+}
+
+.md-sidebar--secondary .md-nav__link:hover {
+  color: #4a148c;
+}
+
+.md-sidebar--secondary .md-nav__link--active {
   color: #4a148c !important;
   font-weight: 600;
 }
