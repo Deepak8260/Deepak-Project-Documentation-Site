@@ -1,4 +1,4 @@
-# NLP Project 1 Documentation
+# **NLP Project 1 Documentation**
 
 ## Overview
 
