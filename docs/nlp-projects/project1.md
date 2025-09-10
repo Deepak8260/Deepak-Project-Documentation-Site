@@ -4,10 +4,6 @@
 
 This document provides detailed information about the first Natural Language Processing (NLP) project. It covers the objectives, methodologies, results, and conclusions drawn from the project.
 
-## Objectives
-
-The primary goal of this project is to [insert specific objectives here, e.g., develop a sentiment analysis model, create a chatbot, etc.]. 
-
 ## Methodology
 
 1. **Data Collection**: 
